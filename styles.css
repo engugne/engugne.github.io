@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Text Styles */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Contact Information Styles */
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-weight: bold;
+}
+
+.contact-info a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Modern Styles */
+/* Add your modern styling here */
+
