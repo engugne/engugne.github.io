@@ -10,14 +10,34 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #333;
+    background-color: #007acc;
     color: #fff;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
     font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Container Styles */
@@ -30,30 +50,30 @@ header h1 {
     border-radius: 5px;
 }
 
-/* Text Styles */
-p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-/* Contact Information Styles */
-.contact-info {
+/* About Me Section Styles */
+#about img {
+    max-width: 100%;
+    height: auto;
     margin-top: 20px;
 }
 
-.contact-info p {
-    font-weight: bold;
+/* Services Section Styles */
+#services ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
 }
 
-.contact-info a {
-    color: #007acc;
-    text-decoration: none;
+/* Contact Section Styles */
+#contact p {
+    font-size: 18px;
+    margin-top: 10px;
 }
 
-.contact-info a:hover {
-    text-decoration: underline;
+/* Footer Styles */
+footer {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
-
-/* Modern Styles */
-/* Add your modern styling here */
-
